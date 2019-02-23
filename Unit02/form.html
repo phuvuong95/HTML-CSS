@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form name='formDangKy'>
+		<!-- Cho phép người dùng nhập thông tin -->
+		Họ tên: <input type="text" name="hoTen" value="" placeholder="Nhập họ tên vào đây..."><br>
+		<!-- Cho phép người dùng chọn nhiều lựa chọn -->
+		Thời gian học:<br>
+		<input type="checkbox" name="thoiGianhoc" value="2"> Thứ 2
+		<input type="checkbox" name="thoiGianhoc" value="3"> Thứ 3
+		<input type="checkbox" name="thoiGianhoc" value="4"> Thứ 4<br>
+		<input type="checkbox" name="thoiGianhoc" value="5" checked=""> Thứ 5
+		<input type="checkbox" name="thoiGianhoc" value="6"> Thứ 6
+		<input type="checkbox" name="thoiGianhoc" value="7" checked=""> Thứ 7
+		<input type="checkbox" name="thoiGianhoc" value="CN"> Chủ nhật <br>
+		<!-- chọn 1 lựa chọn -->
+		Giới Tính: <input type="radio" name="gioiTinh" value="nam" placeholder=""> Nam
+		<input type="radio" name="gioiTinh" value="nu" placeholder="" checked=""> Nữ <br>
+		<!-- mật khẩu -->
+		Mật khẩu:
+		<input type="password" name="matKhau" value="" placeholder=""><br>
+		<!-- file upload -->
+		Hồ sơ đính kèm: 
+		<input type="file" name="" value="" placeholder=""> <br>
+		<!-- chọn 1 lựa chọn, có nhiều thông tin -->
+		Ngày Sinh:
+		<input type="date" name="ngaySinh" value="Ngày Sinh" placeholder=""><br>
+		Tỉnh:
+		<select name="tinh">
+			<option value="HN" selected="">  Hà Nội </option>
+			<option value="HP">Hải Phong</option> 
+			<option value="HD">Hải Dương</option> 
+			<option value="HT">Hà Tây</option> 
+		</select><br>
+		Ý Kiến:
+		<textarea name="yKien" rows="5" cols="50"> Ý kiến khác</textarea><br>
+		<input type="reset" name="nhapLai" value="Nhập Lại">
+		<input type="submit" name="guiDangky" value="Gửi đăng ký">
+		<input type="button" name="khac" value="Khác">
+	</form>
+</body>
+</html>
