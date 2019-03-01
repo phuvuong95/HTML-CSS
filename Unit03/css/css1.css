@@ -1,0 +1,13 @@
+#background{
+	background-image:url(anh2/tuyet.jpg);
+	width: 100%;
+	height: 800px;
+	
+
+}
+#center{
+	background-color: black;
+	width: 80%;
+	height: 500px;
+	background-position: 50% 50%;
+}
