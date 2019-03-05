@@ -1,0 +1,48 @@
+@font-face{
+	font-family: 'font-o-ly';     /*Định nghĩa tên font*/
+	src:url('font/UNITapviet_5_ly.ttf');  /*Đường dẫn chỏ đến file font vừa download*/
+}
+
+
+.rec{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	border-top: 1px dotted red;
+	border-bottom: 1px dotted red;
+}
+#box-model{
+	/*border-width: 1px;
+	border-color: red;
+	border-style: solid; */
+	margin:20px;
+	padding-left: 30px;
+	padding-top: 40px;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	/*font-family: 'Inconsolata', monospace;*/
+	font-family: 'font-o-ly';
+	font-size: 50px;
+	text-align: center;
+	color: green;
+	position: relative;    /*Vị trí tương đối của đối tượng cha*/
+}
+.child{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+#child1{
+	top:40px;
+	left:50px;
+	background-color: red;
+	z-index: 1     /*z-index nào lớn hơn sẽ đc nằm trên*/
+}
+#child2{
+	top:50px;
+	left: 60px;
+	background-color: brown;
+	z-index: 2
+}
+#box-model:hover{
+	background-color: pink;
+}
