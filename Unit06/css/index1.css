@@ -1,0 +1,33 @@
+*{
+	margin:0;
+}
+.background{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+	border:2px gray solid;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background-color: purple;
+
+}
+ul{
+	float:left;
+	height: 200px;
+	width: 50%;
+}
+li{
+	list-style: none;
+	width: 20%;
+	height: 50px;
+	background-color: blue;
+	margin-top: 20px;
+}
+aside{
+	width: 10%;
+	height: 250px;
+	background-color: blue;
+	float:right;
+}
