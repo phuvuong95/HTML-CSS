@@ -266,9 +266,10 @@ a{
 .anh-noi-bat-2{
 	background: url(../images/anhnoibat2.png);
 	height: 170px;
-	width: 35%;
+	width: 58%;
 	background-size: cover;
 	margin-left: 25px;
+	margin-top: 30px;
 	float: left;
 }
 .noidungnoibat2 a{
@@ -276,7 +277,12 @@ a{
 	color: white;
 	width: 60%;
 	height: 300px;
-
+}
+.test2{
+	width: 100%;
+	height: auto;
+	margin-left: 295px;
+    margin-top: 100px;
 
 }
 .icon{
@@ -298,8 +304,27 @@ a{
 	padding-top: 12px;
 	float: left;
 }
-
-
+.anh-noi-bat-3{
+	background: url(../images/anhnoibat3.png);
+	height: 170px;
+	width: 58%;
+	background-size: cover;
+	margin-left: 25px;
+	margin-top: 30px;
+	float: left;
+}
+.noidungnoibat3 a{
+	padding-left: 23px;
+	color: white;
+	width: 60%;
+	height: 300px;
+}
+.test3{
+	width: 100%;
+	height: auto;
+	margin-left: 295px;
+    margin-top: 27px;
+}
 
 
 #footer

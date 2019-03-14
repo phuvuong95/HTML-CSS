@@ -192,6 +192,18 @@ float:left;
   	.middle{
   		width: 150px;
   	}
+  	#name{
+  		width: 100%;
+  	}
+  	#email{
+  		width: 100%;
+  	}
+  	#what{
+  		width: 100%;
+  	}
+  	#number{
+  		width: 100%;
+  	}
 }
 /*phone*/
 @media (max-width: 576px){
@@ -206,5 +218,20 @@ float:left;
   	}
   	.item{
   		display: none;
+  	}
+  	.footer{
+  		width: 100%;
+  	}
+  	#name{
+  		width: 100%;
+  	}
+  	#email{
+  		width: 100%;
+  	}
+  	#what{
+  		width: 100%;
+  	}
+  	#number{
+  		width: 100%;
   	}
 }

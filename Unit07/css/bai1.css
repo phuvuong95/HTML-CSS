@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+}
+.background{
+	width: 100%;
+	height: 3000px;
+	background-color: white;
+}
+.header1-top{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	line-height: 60px;
+}
+li{
+	list-style: none;
+
+}
+.header1-top > ul >li{
+	float: left;
+}
+.header2 img{
+	width: 100%;
+	height: 540px;
+	background-size: cover;
+}
+.icon-circle{
+	padding-left: 47%;
+}
+.fa-circle{
+	padding-left: 5px;
+	font-size: 12px;
+}
+.header4{
+	text-align: center;
+}
+.header5{
+	text-align: center;
+}
+.header6 > ul > li{
+	float: left;
+}
+.bg-icon1{
+	width: 5%;
+	height: 50px;
+	background-color: #ff3b00;
+	border-radius: 50%;
+	float: left;
+	margin-left: 22%;
+}
+.bg-icon2{
+	width: 5%;
+	height: 50px;
+	background-color: #ff3b00;
+	border-radius: 50%;
+	float: left;
+	margin-left: 13%;
+}
+.bg-icon3{
+	width: 5%;
+	height: 50px;
+	background-color: #ff3b00;
+	border-radius: 50%;
+	float: left;
+	margin-left: 11%;
+}
+.bg-icon4{
+	width: 5%;
+	height: 50px;
+	background-color: #ff3b00;
+	border-radius: 50%;
+	float: left;
+	margin-left: 13%;
+}
+.fa-cogs{
+	font-size: 32px;
+	line-height: 50px;
+	padding-left: 16px;
+	color: white;
+}
+.fa-leaf{
+	font-size: 32px;
+	line-height: 50px;
+	padding-left: 18px;
+	color: white;
+}
+.fa-heart{
+	font-size: 32px;
+	line-height: 50px;
+	padding-left: 18px;
+	color: white;
+}
+.fa-laptop{
+	font-size: 32px;
+	line-height: 50px;
+	padding-left: 16px;
+	color: white;
+}
+.creative-solutions{
+	width: 10%;
+	margin-left: -10px;
+}
+.main{
+	width: 100%;
+	height: 1800px;
+	background-color: yellow;
+}

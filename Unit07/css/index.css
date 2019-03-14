@@ -1,0 +1,56 @@
+@keyframes move{
+	0%{
+		top: 0px;
+		left: 0px;
+	}
+	25%{
+		top:0px;
+		left: 500px;
+		background-color: red;
+	}
+	50%{
+		top:500px;
+		left: 500px;
+		background-color: green;
+	}
+	75%{
+		top:500px;
+		left:0px;
+		background-color: brown;
+	}
+	100%{
+		top:0px;
+		left:0px;
+	}
+}
+#container{
+	width: 580px;
+	height: 580px;
+	font-size: 23px;
+	text-shadow:3px 4px 5px red;
+	box-shadow:; 
+	/*background:linear-gradient(to right,red,orange,yellow,white);
+	background:-o-linear-gradient(to right,red,orange,yellow,white);
+	background:-moz-linear-gradient(to right,red,orange,yellow,white);
+	background:-webkit-linear-gradient(to right,red,orange,yellow,white);
+	background:-ms-linear-gradient(to right,red,orange,yellow,white);*/
+
+/*	position: absolute;
+	animation-name: move; tên hiệu ứng
+	animation-timing-function: : linear;  kiểu di chuyển
+	animation-duration: 5s; thời gian xảy ra hiệu ứng
+	animation-iteration-count: infinite;
+	*/
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+#container:hover{
+	background-color: blue;
+	/*transform:rotate(360deg) scale(3,4);*/
+	transform: translate(102px,0px);
+	transform: skew(39deg, 1deg) ;
+	-webkit-transform: skew(39deg, 1deg) ;
+	-moz-transform: skew(39deg, 1deg) ;
+	-o-transform: skew(39deg, 1deg) ;
+	-ms-transform: skew(39deg, 1deg) ;
