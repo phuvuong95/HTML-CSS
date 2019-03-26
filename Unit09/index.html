@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.color{
+			padding:10px;
+			margin:10px;
+			border:1px solid;
+		}
+	</style>
+		
+	<!-- <script type="text/javascript">
+		function change(){
+			// var box = document.getElementById("box");
+			// box.checked= true;
+			// box.value="Abc";
+			// box.className="test";
+			// var text =  document.getElementById("text");
+			// text.style.display="none";
+			// text.style.width = "300px";
+			// text.style.height ="300px";
+			// text.style.color = "green";
+			// text.style.background = "yellow";
+			// text.style.borderColor = "green";
+			// text.style.borderWidth = "1px";
+			// text.style.borderStyle = "solid";
+			var text = document.getElementsByTagName("div");
+			// var text = document.getElementsByClassName("text");
+			for (var i = 0; i < text.length; i++) {
+				text[i].style.display="none";
+			}
+		}
+	</script> -->
+</head>
+<body >
+	<select id="opt" name="" onchange="changeColor(this)" >
+		<option value="">--Select--</option>
+		<option value="red">Red</option>
+		<option value="blue">Blue</option>
+		<option value="green">Green</option>
+		<option value="Yellow">Yellow</option>
+		
+	</select>
+	<input type="text" name="" value="" placeholder="Search..." onfocus="changeBg(this)" onblur="resetBg(this)">
+	<!-- <input type="button" name="" onmouseonver="change()" value="Click">
+	<input id="box" type="checkbox" name="" value="Test">Test -->
+	<span id="red" class="color" onmouseover="change(this)" onmouseout="reset()"></span>
+	<span id="green" class="color" onmouseover="change(this)" onmouseout="reset()"></span>
+	<span id="blue" class="color" onmouseover="change(this)" onmouseout="reset()"></span>
+	<span id="yellow" class="color" onmouseover="change(this)" onmouseout="reset()"></span>
+	<span id="purple" class="color" onmouseover="change(this)" onmouseout="reset()"></span>
+	<span id="orange" class="color" onmouseover="change(this)" onmouseout="reset()"></span>
+	<span id="black" class="color" onmouseover="change(this)" onmouseout="reset()"></span>
+	<div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias aliquam ipsa porro nesciunt, quasi, reprehenderit similique quas quo ab. Blanditiis quae, ducimus dolorem sed nisi optio obcaecati molestias. Nesciunt.
+	</div>
+<!-- 	<div>
+		The div 2
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem vitae delectus debitis distinctio reprehenderit. Commodi dolore saepe ea ut quod corporis necessitatibus ratione neque dicta, deserunt asperiores, explicabo, minima. Aperiam.
+	</div>
+	<div>
+		The div 3
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem vitae delectus debitis distinctio reprehenderit. Commodi dolore saepe ea ut quod corporis necessitatibus ratione neque dicta, deserunt asperiores, explicabo, minima. Aperiam.
+	</div>
+	<div>
+		The div 4
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem vitae delectus debitis distinctio reprehenderit. Commodi dolore saepe ea ut quod corporis necessitatibus ratione neque dicta, deserunt asperiores, explicabo, minima. Aperiam.
+	</div>
+	<div>
+		The div 5
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem vitae delectus debitis distinctio reprehenderit. Commodi dolore saepe ea ut quod corporis necessitatibus ratione neque dicta, deserunt asperiores, explicabo, minima. Aperiam.
+	</div> -->
+	<script type="text/javascript">
+		var colors = document.getElementsByClassName("color");
+		for (var i = 0; i < colors.length; i++) {
+			colors[i].style.backgroundColor = colors[i].id;
+		}
+		function load(){
+			var colors = document.getElementsByClassName("color");
+			for (var i = 0; i < colors.length; i++) {
+				colors[i].style.backgroundColor = color[i].id;
+				colors[i].addEventListener("mouseout",function(){
+					reset();
+				});
+				colors[i].addEventListener("mouseover",function(){
+						change(this);
+				});
+			}
+			var opt = document.getElementById("opt");
+			opt.addEventListener("change",function(){
+				chang(this);
+			});
+		}
+		function change(color){
+			var div = document.getElementsByTagName("div");
+			div[0].style.backgroundColor = color.id;
+		}
+		function reset(){
+			var div = document.getElementsByTagName("div");
+			div[0].style.backgroundColor="white";
+		}
+		function changeBg(text){
+			text.style.backgroundColor="yellow";
+		}
+		function resetBg(text){
+			text.style.backgroundColor="white";
+		}
+		function changeColor(){
+			var div = document.getElementsByTagName("div");
+			div[0].style.backgroundColor = opt.value;
+		}
+		</script>
+</body>
+</html>

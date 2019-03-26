@@ -151,6 +151,10 @@
 	list-style: none;
 	
 }
+.bgcontent3{
+	width: 100%;
+	height: 1000px;
+}
 .bg-content3-left1{
 	width: 30%;
 	height: auto;
@@ -158,7 +162,7 @@
 }
 .content3-left1-1 >ul >li>p{
 	float: left;
-	width: 5%;
+	width: 20%;
 	font-size: 50px;
 }
 .content3-left1-1 >ul >li>div{
@@ -166,6 +170,10 @@
 	padding-top: 8px;
 	/*padding-left: 20px;*/
 }
+/*.content3-left2{
+	width: 30%;
+	height: auto;
+}*/
 .content3-left2-1{
 	background-color:#F6F6F6;
 	width: 71%;
@@ -177,7 +185,7 @@
 }
 .content3-left2-2{
 	background-color:#F6F6F6;
-	width: 25%;
+	width: 71%;
 	margin:0 14%;
 	padding: 1% 0px;
 	position: relative;
@@ -214,12 +222,51 @@
 	left: 10%;
 	/*height: auto;*/
 }
-.content3-left2-3-1{
+/*.content3-left2-3-1{
 	/*position: absolute;*/
-}
+/*}
 .content3-left2-3-1{
 	width: 80%;
 	height: 180px;
 	margin: 0 auto;
 	background-color: #fff;
+}*/
+.content3-left{
+	float: left;
+	width: 30%;
+
 }
+.content3-right{
+	float: left;
+	width: 65%;
+	height: 300px;
+	/*background-color: red;*/
+}
+.content3-right-1{
+	width: 100%;
+	height: 300px;
+	/*background-color: green;*/
+}
+.content3-right-pic1{
+	position: relative;
+}
+.content3-right-pic1 img{
+	width: 61%;
+}
+.content3-right-content1{
+	position: absolute;
+	z-index: 1;
+	width: 30%;
+	height: 220px;
+	background-color: #FFFFFF;
+	top: 40px;
+	right: 120px;
+}
+.chu1{
+	padding-top: 42px;
+}
+.bgcontent4{
+	width: 100%;
+	background-color: black;
+	height: 500px;
+}	
