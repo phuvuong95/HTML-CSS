@@ -1,0 +1,113 @@
+.background{
+	width: 100%;
+	height: 550px;
+	background-color: #EEEEEE;
+}
+.bg-header{
+	margin:0 100px;
+	background-color: #2184BE;
+	height: 100px;
+}
+.clear{
+	clear:both;
+}
+li{
+	list-style: none;
+}
+.content-header > ul > li{
+	display: inline-block;
+}
+.new{
+	background-color: #B94A48;
+	color: white;
+}
+.bg-banner{
+	margin:0 100px;
+	background-color: #EEEEEE;
+	height: 400px;
+}
+.content-banner{
+	margin:0 70px;
+	background-color: #EEEEEE;
+	height: 300px;
+}
+.icon > ul > li{
+	display: inline-block;
+}
+.icon{
+	margin-left: 370px;
+}
+.content-banner img{
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.bg-main{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+.main-left{
+	width: 20%;
+	height: 260px;
+	background-color: #EEEEEE;
+	float: left;
+}
+.main-right{
+	width: 80%;
+	height: auto;
+	background-color: white;
+	float: left;
+}
+.main-left > ul >li{
+	margin:10px 0px;
+	color: #2184BE;
+}
+.main-right > ul > li{
+	display: inline-block;
+}
+.step{
+	width:19%;
+	height: 55px; 
+	background-color: #EEEEEE;
+	line-height: 55px;
+	border-radius: 10px;
+	font-size: 25px;
+	margin:0px 18px;
+	padding-left: 17px;
+}
+.form{
+	height: auto;
+}
+.form1{
+	width: 89%;
+	/*height: 400px;*/
+	background-color: #EEEEEE;
+	margin:0px 55px;
+	border-radius: 10px;
+	padding-left: 25px;
+	/*display: none;*/
+}
+.form2{
+	width: 89%;
+	/*height: 400px;*/
+	background-color: #EEEEEE;
+	margin:0px 55px;
+	border-radius: 10px;
+	padding-left: 25px;
+	display: none;
+}
+.next{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	padding-left: 900px;
+	padding-top: 10px;
+}
+#button1,#button2{
+	width: 6%;
+	height: 30px;
+	background-color: #EEEEEE;
+	color: #AAAAAA;
+	border-radius: 6px;
+}
