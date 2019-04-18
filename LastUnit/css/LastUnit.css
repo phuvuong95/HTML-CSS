@@ -1,0 +1,712 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.clear{
+	clear:both;
+}
+.banner{
+	width: 100%;
+	height: auto;
+}
+.banner1{
+	width: 100%;
+	height: auto;
+	background-image: url("../images/homebg.jpg");
+	background-size: cover;
+	background-repeat: none;
+}
+.bgbanner1{
+	width: 100%;
+	background-color: #5E5B54;
+	opacity: 0.7;
+	height: auto;
+}
+/*//anh cứ css ntn xuống dưới thể nào cũng sai...*/
+.navbar .navbar-brand { 
+	width: 8%;
+	border:1px solid white;
+	text-align: center;
+  	color: #FD5B00 !important;
+  	font-weight: bold;
+}
+.banner1 .navbar .navbar-brand{
+	font-size: 15px;
+}
+.banner1 .navbar .navbar-collapse ul{
+	font-size: 15px;
+}
+.navbar .nav-link{
+	color: white !important;
+}
+.banner1 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+	color: #FD5B00 !important;
+	border-bottom: 1px #FD5B00 solid;
+}
+.banner1 .jumbotron{
+	background-color: inherit;
+	text-align: center;
+}
+.banner1 .jumbotron .display-4{
+	color: white;
+}
+/*.bd-example{
+	height: 400px;
+}*/
+.carousel-inner .carousel-item .carousel-caption{
+	top:290px;
+}
+.carousel-indicators{
+	top: 500px;
+}
+.carousel-inner .carousel-item .carousel-caption a{
+	background-color: #FD5B00;
+	border:1px solid #FD5B00;
+}
+.clock{
+	top:300px;
+}
+.diamond {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+.diamond:hover{
+	background-color: #FD5B00;
+}
+.banner2{
+	width: 100%;
+	height: auto;
+}
+.tab1{
+	position: relative;
+}
+.tab2{
+	position: relative;
+}
+.tab3{
+	position: relative;
+}
+.tab4{
+	position: relative;
+}
+.text1{
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	text-align: center;
+}
+.text2{
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	text-align: center;
+}
+.text3{
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	text-align: center;
+}
+.text4{
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	text-align: center;
+}
+.fa-compass{
+	font-size: 30px;
+}
+.web-design-one{
+	width: 100%;
+	height: auto;
+}
+.web-design-left{
+	width: 50%;
+	height: auto;
+	padding:0 120px;
+}
+.pic-right{
+	width: 50%;
+	height: auto;
+}
+.web-design-left hr{
+	margin-left: 0px;
+}
+.web-design-left .jumbotron{
+	background-color: inherit !important;
+	padding: 0px;
+}
+.web-design-left .jumbotron a{
+	background-color: #FD5B00;
+	border: none;
+}
+/*.web-design-left{
+	float: left;
+}
+.pic-right{
+	float: left;
+}*/
+.pic-right img{
+	background-size: cover;
+	background-repeat: none;
+}
+.featured-work{
+	width: 100%;
+	height: auto;
+}
+.featured-work1{
+	width: 100%;
+	height: auto;
+	/*padding: 0 120px;*/
+}
+.featured-work-left{
+	width: 60%;
+	height: auto;
+	/*padding:0 120px;*/
+}
+.featured-work-right{
+	width: 40%;
+	height: auto;
+}
+/*.featured-work-right{
+	float: left;
+}
+.featured-work-left{
+	float:left;
+}*/
+.bg-slide{
+	width: 100%;
+	height: auto;
+}
+.banner3{
+	width: 100%;
+	height: auto;
+}
+.videobg{
+	width: 100%;
+	height: auto;
+}
+.videobg img{
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+.banner3{
+	position: relative;
+}
+.playpng{
+	width: 10%;
+	height: auto;
+}
+.playpng img{
+	width: 50%;
+	height:auto;
+	background-size: cover;
+}
+.playpng{
+	position: absolute;
+	top:135px;
+	right: 600px; 
+}
+.text-play{
+	width: 100%;
+	height: auto;
+}
+.banner3 .card{
+	background-color: inherit;
+	border:none;
+}
+.banner3 .card .card-body .card-title{
+	font-size: 20px;
+	margin:0px -80px;
+	color: white;
+}
+.banner4{
+	width: 100%;
+	height: auto;
+}
+.about-logic{
+	width: 100%;
+	height: auto;
+	padding:0 120px;
+}
+.responsive-design{
+	width: 100%;
+	height: auto;
+}
+.responsive-design-left{
+	width: 50%;
+	height: auto;
+}
+.responsive-design-right{
+	width: 50%;
+	height: auto;
+	padding: 0px 150px;
+    margin: -100px 0px;
+}
+.responsive-design-left1{
+	width: 30%;
+	height: auto;
+}
+.responsive-design-left2{
+	width: 30%;
+	height: auto;
+}
+.responsive-design-left3{
+	width: 30%;
+	height: auto;
+}
+.responsive-design-left1-text{
+	width: 70%;
+	height: auto;
+}
+.responsive-design-left2-text{
+	width: 70%;
+	height: auto;
+}
+.responsive-design-left3-text{
+	width: 70%;
+	height: auto;
+}
+.responsive-design-left1-icon{
+	width: 100%;
+	height: auto;
+}
+.responsive-design-left1{
+	position: relative;
+}
+.responsive-design-left1-icon{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.fa-coffee{
+	font-size: 25px;
+}
+.fa-paint-brush{
+	font-size: 25px;
+}
+.fa-headphones{
+	font-size: 25px;
+}
+.responsive-design-left1{
+	float: left;
+}
+.responsive-design-left1-text{
+	float: left;
+}
+.responsive-design-left2{
+	position: relative;
+}
+.responsive-design-left2-icon{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.responsive-design-left2{
+	float: left;
+}
+.responsive-design-left2-text{
+	float: left;
+}
+.responsive-design-left3{
+	float: left;
+}
+.responsive-design-left3-text{
+	float: left;
+}
+.responsive-design-left3{
+	position: relative;
+}
+.responsive-design-left3-icon{
+	position: absolute;
+	top: 40px;
+	left:30px;
+}
+/*.responsive-design-left{
+	float: left;
+}*/
+.responsive-design-right{
+	margin-top: 20px;
+}
+.our-mission{
+	width: 100%;
+	height: auto;
+}
+.our-mission-left{
+	width: 60%;
+	height: auto;
+}
+.our-mission-right{
+	width: 40%;
+	height: auto;
+	margin:-10px;
+}
+.our-mission1{
+	width: 30%;
+	height: auto;
+}
+.our-goal{
+	width: 30%;
+	height: auto;
+}
+.achivements{
+	width: 30%;
+	height: auto;
+}
+.our-mission1-pic{
+	width: 100%;
+	height: auto;
+}
+.our-mission1-text{
+	width: 100%;
+	height: auto;
+}
+.our-mission1-pic{
+	position: relative;
+}
+.our-mission1-text{
+	position: absolute;
+	top: 17px;
+	left: 40px;
+}
+.our-goal-pic{
+	width: 100%;
+	height: auto;
+}
+.our-goal-text{
+	width: 100%;
+	height: auto;
+}
+.our-goal-pic{
+	position: relative;
+}
+.our-goal-text{
+	position: absolute;
+	top: 17px;
+	left: 40px;
+}
+.achivements-text{
+	width: 100%;
+	height: auto;
+}
+.achivements-pic{
+	position: relative;
+}
+.achivements-text{
+	position: absolute;
+	top: 17px;
+	left: 40px;
+}
+.our-mission1{
+	float: left;
+}
+.our-goal{
+	float: left;
+}
+.achivements{
+	float: left;
+}
+.left-text {
+	width: 90%;
+	height: auto;
+}
+.we-just-want{
+	width: 100%;
+	height: auto;
+}
+.we-just-want-left1{
+	width: 100%;
+	height: auto;
+}
+.we-just-want-left2{
+	width: 100%;
+	height: auto;
+}
+.we-just-want-left3{
+	width: 100%;
+	height: auto;
+}
+.we-just-want-left4{
+	width: 100%;
+	height: auto;
+}
+/*.our-mission-left{
+	float: left;
+}
+.our-mission-right{
+	float: left;
+}*/
+.photoshop{
+	width: 90%;
+	height: auto;
+}
+.photoshop{
+	float: left;
+}
+.photoshop-percent{
+	height: auto;
+}
+.photoshop-percent{
+	float: left;
+}
+.photoshop-percent p{
+	font-size: 13px;
+}
+
+.html{
+	width: 90%;
+	height: auto;
+}
+.html{
+	float: left;
+}
+.html-percent{
+	height: auto;
+}
+.html-percent{
+	float: left;
+}
+.html-percent p{
+	font-size: 13px;
+}
+
+.javascript{
+	width: 90%;
+	height: auto;
+}
+.javascript{
+	float: left;
+}
+.javascript-percent{
+	height: auto;
+}
+.javascript-percent{
+	float: left;
+}
+.javascript-percent p{
+	font-size: 13px;
+}
+
+.wordpress{
+	width: 90%;
+	height: auto;
+}
+.wordpress{
+	float: left;
+}
+.wordpress-percent{
+	height: auto;
+}
+.wordpress-percent{
+	float: left;
+}
+.wordpress-percent p{
+	font-size: 13px;
+}
+/*.banner5{
+	width: 100%;
+	height: auto;
+}
+.banner5-img{
+	width: 100%;
+	height: auto;
+}
+.banner5-img img{
+	width: 100%;
+	background-size: cover;
+	background-repeat: none;
+}*/
+.banner5{
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-color: #5E5B54;
+	opacity: 0.7;
+	z-index: 10;
+}
+/*.bg-banner5{
+	width: 100%;
+	background-color: #5E5B54;
+	opacity: 0.7;
+	height: auto;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+}*/
+.banner5>img{
+	
+	width: 100%;
+	height: auto;
+	z-index: 1;
+}
+.content5{
+	width: 100%;
+	position: absolute;
+	z-index: 11;
+	top: 0px;
+}
+.content5-1 i{
+	display: block;
+}
+.row{
+	width:100%;
+}
+.cmm1{
+	position: relative;
+
+}
+.cmm{
+	 position: absolute;
+	 top: 10%;
+	 text-align: center;
+	 width: 100%;
+}
+.cmm h5{
+	font-size: 15px;
+}
+.banner6{
+	width: 100%;
+	height: auto;
+}
+.bg-ther-service{
+	width: 100%;
+	height: auto;
+}
+.ther-service-pic{
+	/*width: 100%;*/
+	height: auto;
+}
+.ther-service-pic{
+	position: relative;
+}
+.ther-service-icon{
+	/*width: 100%;*/
+	height: auto;
+}
+.ther-service-icon{
+	position: absolute;
+	top: 15px;
+	left: 18px;
+}
+.ther-service{
+	position: relative;
+}
+.ther-service-text{
+	position: absolute;
+	top:18px;
+	left: 80px;
+}
+.ther-service-pic{
+	float: left;
+}
+.ther-service-text{
+	float: left;
+}
+.ther-service-img{
+	width: 100%;
+}
+/*.ther-service-img1{
+	width: 100%;
+}*/
+.br-ther-service-img{
+	width: 100%;
+}
+.why-choose-us{
+	width: 100%;
+	height: auto;
+}
+.why-choose-us-left .card .card-header{
+	background-color: inherit;
+	width: 100%;
+	padding: 0px;
+}
+.why-choose-us-left-img{
+	height: auto;
+}
+.why-choose-us-left-img img{
+	height: 55px;
+}
+.why-choose-us-left-img{
+	position: relative;
+}
+.why-choose-us-left-icon{
+	position: absolute;
+	top:15px;
+	left: 30px;
+}
+.card .card-header h2 button{
+	color: black !important;
+	font-weight: bold;
+}
+.latest-project{
+	width: 100%;
+	height: auto;
+}
+li{
+	list-style: none;
+}
+.latest-project-right-tab > ul >li{
+	display: inline-block;
+}
+.latest-project-right-tab{
+	width: 100%;
+	height: auto;
+}
+.latest-project-right-tab ul li:hover{
+	color: #FD5B00;
+	cursor: pointer;
+}
+.latest-project-img{
+	width: 100%;
+}
+.latest-project-img img{
+	width: 100%;
+}
+.banner7{
+	width: 100%;
+	height: auto;
+}
+.bg-banner7{
+	width: 100%;
+	height: auto;
+}
+.banner7-opacity{
+	width: 100%;
+	height: auto;
+}
+.carousel-control.prev, .carousel-control.next {
+  left: 0 !important;
+  z-index: 1 !important;
+}
+.fa-quote-left{
+	font-size: 30px;
+}
+.d-block{
+	opacity: 0.9;
+}
+.diamond1 {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+}
+.diamond1:hover{
+	background-color: #FD5B00;
+}
+.banner8{
+	width: 100%;
+	height: auto;
+	padding: 30px 5%;
+	background-color: #EEEEEE;
+}
+.bg-banner8{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.mar{
+	margin-left: 0px !important;
+}

@@ -1,0 +1,157 @@
+.banner1{
+	width: 100%;
+	background-image: url("../images/7.jpg");
+	background-size: cover;
+}
+.banner2{
+	width: 100%;
+	background-color: #F05F40;
+}
+.banner3{
+	width: 100%;
+	background-color: white;
+}
+.banner4{
+	width: 100%;
+	height: auto;
+}
+.banner5{
+	width: 100%;
+	height: auto;
+	background-color: #212529;
+}
+.banner6{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+.navbar .navbar-brand {
+  color: #C6C1C0 !important;
+}
+.banner1 .navbar .navbar-brand{
+	font-size: 15px;
+}
+.banner1 .navbar .navbar-collapse ul{
+	font-size: 15px;
+}
+.navbar .nav-link{
+	color: #C6C1C0 !important;
+}
+.banner1 .jumbotron{
+	background-color: inherit;
+	text-align: center;
+}
+.banner1 .jumbotron .display-4{
+	color: #FFFFFF;
+	font-size: 50px;
+	font-weight: bold;
+}
+.banner1 .jumbotron{
+	margin-bottom: 0px;
+}
+.banner1 .jumbotron .lead{
+	color: #C6C1C0;
+}
+.banner1 .jumbotron .my-4{
+	background-color: #F05F40;
+	width: 4%;
+}
+.banner1 .jumbotron p{
+	color: #C6C1C0;
+}
+.banner1 .navbar .navbar-brand:hover{
+	color: white !important;
+}
+.banner1 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+	color: white !important;
+}
+.banner1 .jumbotron a:hover{
+	background-color: #FF4500 !important;
+}
+.banner2 .jumbotron{
+	background-color: inherit;
+	text-align: center;
+}
+.banner2 .jumbotron .display-4{
+	color: white;
+	font-size: 25px;
+}
+.banner2 .jumbotron .my-4{
+	background-color: white;
+	width: 4%;
+}
+.banner2 .jumbotron p{
+	color: #C6C1C0;
+}
+.banner2 .jumbotron a:hover{
+	background-color: #C6C1C0 !important;
+}
+.banner3 .jumbotron .my-4{
+	background-color: #F05F40;
+	width: 4%;
+}
+.banner3 .jumbotron{
+	background-color: inherit;
+	text-align: center;
+}
+.banner3 .jumbotron .display-4{
+	color: black;
+	font-size: 25px;
+}
+.banner3 .jumbotron .card{
+	display: inline-block;
+}
+.fa-gem{
+	font-size: 30px;
+	color: #F05F40;
+}
+.fa-paper-plane{
+	font-size: 30px;
+	color: #F05F40;
+}
+.fa-calendar{
+	font-size: 30px;
+	color: #F05F40;
+}
+.fa-heart{
+	font-size: 30px;
+	color: #F05F40;
+}
+.banner4 .container .row .card{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.banner5 .jumbotron{
+	background-color: inherit;
+	text-align: center;
+}
+.banner5 .jumbotron .display-4{
+	color: white;
+	font-size: 25px;
+}
+.banner5 .jumbotron a:hover{
+	background-color: #C6C1C0 !important;
+}
+.banner6 .jumbotron{
+	background-color: inherit;
+	text-align: center;
+}
+.banner6 .jumbotron .my-4{
+	background-color: #F05F40;
+	width: 4%;
+}
+.banner6 .jumbotron .display-4{
+	font-size: 30px;
+}
+.banner6 .jumbotron .card{
+	display: inline-block;
+}
+.banner6 .jumbotron .card .card-title{
+	font-size: 15px;
+}
+.fa-phone-square{
+	font-size: 30px;
+}
+.fa-envelope-open{
+	font-size: 30px;
+}
